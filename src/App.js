@@ -1,11 +1,14 @@
-import React from 'react';
-import { Button } from 'antd'; 
-import './App.css';
+import React from "react";
+import { Button } from "antd";
+import Message from "./Component/Message";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Button>click me</Button>
+      <Message>
+        <Button>click me</Button>
+      </Message>
     </div>
   );
 }
