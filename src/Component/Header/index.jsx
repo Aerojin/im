@@ -1,15 +1,14 @@
 import React from "react";
-import { Button, Popover } from "antd";
+// import { Button, Popover } from "antd";
 import "./index.css";
 
 const Header = (props) => {
-  const { children } = props || {};
+  // const { children } = props || {};
 
-  console.log(111);
 
   return (
-  <div >
-    header
+  <div className="wdk-im-header" >
+    客服
   </div>
   );
 };

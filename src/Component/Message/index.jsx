@@ -9,7 +9,7 @@ const Message = (props) => {
   console.log(111);
 
   return (
-  <Popover content={<Layout/>} trigger="click">
+  <Popover content={<Layout/>} overlayClassName="wdk-im-overlay" trigger="click" placement="leftBottom">
     {children}
   </Popover>
   );

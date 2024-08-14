@@ -1,0 +1,10 @@
+.wdk-im-overlay{
+    background: #fff;
+
+   
+}
+
+
+.wdk-im-overlay div.ant-popover-inner{
+    padding: 0px;
+}

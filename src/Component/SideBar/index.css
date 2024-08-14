@@ -1,0 +1,59 @@
+.wdk-im-sidebar {
+  width: 300px;
+  height: 100%;
+  position: relative;
+}
+
+
+
+.wdk-im-sidebar .wdk-im-sidebar-divider {
+    margin: 10px 0px;
+}
+
+.wdk-im-sidebar .wdk-im-sidebar-company-info {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  line-height: 25px;
+  margin-top: 25px;
+  color: #86909c;
+}
+
+.wdk-im-sidebar .wdk-im-sidebar-company-info .company-name {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #1d2129;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+
+.wdk-im-sidebar .common-problem{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.wdk-im-sidebar .common-problem li{
+    margin: 0px;
+    padding: 0px 0px 0px 15px;
+    line-height: 28px;
+}
+
+.wdk-im-sidebar .common-problem .common-problem-title{
+    font-size: 15px;
+    color: #1d2129;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.wdk-im-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #86909c;
+    cursor: pointer;
+}
