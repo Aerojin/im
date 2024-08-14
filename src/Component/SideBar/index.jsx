@@ -32,21 +32,19 @@ const CommonProblem = () => {
     <ul className="common-problem">
       <li className="common-problem-title">常见问题</li>
       <li>
-        <a href="#">怎么成为采购商</a>
+        <a href="https://www.taobao.com/">怎么成为采购商</a>
       </li>
       <li>
-        <a href="#">网站购买该如何支付</a>
+        <a href="https://www.taobao.com/">网站购买该如何支付</a>
       </li>
       <li>
-        <a href="#">我的采购货物到哪里了？</a>
+        <a href="https://www.taobao.com/">我的采购货物到哪里了？</a>
       </li>
     </ul>
   );
 };
 
-const SiderBar = (props) => {
-  const { children } = props || {};
-
+const SideBar = () => {
   return (
     <div className="wdk-im-sidebar">
       <CompanyInfo />
@@ -57,4 +55,4 @@ const SiderBar = (props) => {
   );
 };
 
-export default SiderBar;
+export default SideBar;

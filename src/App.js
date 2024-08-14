@@ -6,9 +6,9 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Message>
-        <Button className="button">click me</Button>
-      </Message>
+      <Message />
+      {/* <Button className="button">click me</Button> */}
+      {/* </Message> */}
     </div>
   );
 }

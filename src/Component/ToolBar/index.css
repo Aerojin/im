@@ -1,0 +1,25 @@
+.wdk-im-toolbar{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.wk-conversation-chattoolbars{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px
+}
+
+.wk-conversation-chattoolbars-item {
+    cursor: pointer;
+    list-style: none;
+    width: 40px;
+    
+}
+
+.wk-conversation-chattoolbars-item img {
+    width: 20px;
+    height: 20px;
+}

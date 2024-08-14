@@ -1,7 +1,10 @@
 .wdk-im-layout{
     width: 800px;
     height: 600px;
-    border-radius: 8px;
+    border-radius: 0px;
+    border: solid 1px #eee;
+    margin: 0 auto;
+    margin-top: 100px;
 }
 
 .wdk-im-body{

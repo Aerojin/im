@@ -2,7 +2,7 @@ import React from "react";
 // import { Button, Popover } from "antd";
 import "./index.css";
 
-const Header = (props) => {
+const Header = () => {
   // const { children } = props || {};
 
 

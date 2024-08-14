@@ -1,19 +1,14 @@
 import React from "react";
-import { Button, Input } from "antd";
+import { Button } from "antd";
 import ToolBar from "../ToolBar";
+import MessageInput from "../MessageInput";
 import "./index.css";
 
-const { TextArea } = Input;
-
-const Footer = (props) => {
-  // const { children } = props || {};
-
+const Footer = () => {
   return (
     <div className="wdk-im-footer">
       <ToolBar />
-      <div className="wdk-im-footer-textarea-box">
-        <TextArea className="wdk-im-textarea" placeholder="按 Ctrl + Enter 换行，按 Enter 发送"/>
-      </div>
+      <MessageInput />
       <div className="wdk-im-footer-send">
         <Button type="primary">发送</Button>
       </div>
