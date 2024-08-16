@@ -1,6 +1,6 @@
 import React from "react";
 import { Popover } from "antd";
-import Layout from "../Layout";
+import Layout from "../Layout/index.tsx";
 import "./index.css";
 
 const Message = (props) => {

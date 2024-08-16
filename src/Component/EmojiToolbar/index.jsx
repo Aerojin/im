@@ -3,13 +3,16 @@ import React from "react";
 import { Component } from "react";
 // import { SmileOutlined } from "@ant-design/icons";
 // import { EndpointID } from "../../Constant";
-import WKApp from "../../App";
+// import WKApp from "../../App";
 import {  EmojiService } from '../../Service/EmojiService';
 // import { Emoji, EmojiService } from "../../Service/EmojiService";
 // import ConversationContext from "../Conversation/context";
 
+
 import "./index.css";
 import { LottieSticker } from "../LottieSticker";
+
+const WKApp = {};
 
 export default class EmojiToolbar extends Component {
   constructor(props) {
@@ -22,7 +25,7 @@ export default class EmojiToolbar extends Component {
 
   render() {
     const { show, animationStart } = this.state;
-    // const { icon, conversationContext } = this.props
+    const { insertText } = this.props
     return (
       <div className="wk-emojitoolbar">
         <div
@@ -68,9 +71,11 @@ export default class EmojiToolbar extends Component {
                 // conversationContext.sendMessage(lottieSticker)
               }}
               onEmoji={(emoji) => {
+                console.log(888, emoji);
                 this.setState({
                   show: false,
                 });
+                insertText(emoji.key);
                 // conversationContext.messageInputContext().insertText(emoji.key)
               }}
             ></EmojiPanel>
@@ -198,7 +203,7 @@ export class EmojiPanel extends Component {
               this.setState({ category: "emoji" });
             }}
           >
-            <img alt="" src={require("./emoji_tab_icon.png")}></img>
+            <img alt="" src="./assets/toolbars/emoji_tab_icon.png"></img>
           </div>
           {stickerCategories.map((stickerCategory) => {
             return (

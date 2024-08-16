@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex } from "antd";
 import Header from "../Header";
-import Content from "../Content";
+import Content from "../Content/index.tsx";
 import Footer from "../Footer";
 import SideBar from "../SideBar";
 import "./index.css";

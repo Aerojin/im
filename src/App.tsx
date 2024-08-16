@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "antd";
-import Message from "./Component/Message";
+// import { Button } from "antd";
+import Message from "./Component/Message/index.tsx";
 import "./App.css";
 
 function App() {
